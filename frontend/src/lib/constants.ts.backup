@@ -1,0 +1,9 @@
+// Contract IDs from devnet deployment
+// Deployed on: Transaction Nu4YGoRpKGyS8bTdXRh166JSyoeBaGrXCgBaBGvJepf
+
+export const TIPPING_PACKAGE_ID = '0x2bb24986fa3a5a44d0d69b65ef7a2f8ee492eb1839367314d2143f5572ff92b0'
+export const TIPPING_SYSTEM_ID = '0x6217913758341a00e478a25f042e6259678ccf5a2b7ee668fe0f03960bdf0f2e'
+
+// Network configuration
+export const DEFAULT_NETWORK = 'devnet' as const // 'localnet' | 'devnet' | 'testnet' | 'mainnet'
+

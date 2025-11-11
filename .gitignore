@@ -1,0 +1,35 @@
+# Build artifacts
+build/
+
+# Move build files (but keep source .move files)
+*.mv
+*.mvd
+
+# Debug info JSON files from build
+build/**/*.json
+!package.json
+!package-lock.json
+!tsconfig*.json
+!eslint.config.js
+
+# Move lock file - SHOULD be committed (ensures consistent builds)
+# Move.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
